@@ -1,0 +1,33 @@
+A tag is a Python dictionary entry attached to a “Craftable” object.  These tags are used in the crafting system to determine what objects are suitable for use in a crafting recipe.  They can be used in two ways: either to check for the existence of a tag (stored in the key field of the dictionary) or for the value of a specified tag (the value field for that key in the dictionary).  If the key is not found, the default value is 0.
+
+List of tags and approximate meanings (if unclear).  Tags marked by a * are required for all physical objects.  Unless otherwise noted, values are integers
+Hardness
+Softness
+Stickiness
+Slipperiness
+*Temperature: a dictionary with temperature-related information
+Current: the current temperature of the object (Kelvin)
+Solid: the freezing point of the object
+Liquid: the vaporization point of the object
+Gas: the plasmafication point of the object
+Edible (%)
+Flexible (%)
+Malleable (%)
+*Length: current approximate length in cm
+*Width : " " width " "
+*Height: " " height " "
+*Mass: mass in kg (float)
+Arcane
+Magical
+Technological
+Metallic
+Sharp
+Flammable: values higher than 1 indicate explosiveness
+Absorbsion: how much of a substance the object can absorb
+Nullification: how much magic an object can absorb
+Enchantability: how much arcane energy an object can absorb
+Color
+Conductive (%)
+Toughness: resistance to damage
+Durability: how much damage the object can take
+Energy: object’s potential energy (J)

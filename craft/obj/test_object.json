@@ -1,0 +1,14 @@
+{
+    "name": "Test Object",
+    "value": 100,
+    "tags": {
+        "temperature": 50,
+        "mass": 1000,
+        "length": 10,
+        "width": 10,
+        "height": 10,
+        "gas": 300,
+        "liquid": 200,
+        "solid": 100
+    }
+}
